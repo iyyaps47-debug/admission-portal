@@ -17,7 +17,7 @@ st.set_page_config(
     page_title=Config.APP_TITLE,
     page_icon=Config.APP_ICON,
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
@@ -383,6 +383,7 @@ with st.sidebar:
         st.markdown("**🎓 SKILZLEARN**")
     st.markdown("<br>", unsafe_allow_html=True)
 
+    # --- COURSES ---
     st.markdown("""
         <div class="sidebar-card">
             <h4>🎓 Courses</h4>
@@ -395,13 +396,14 @@ with st.sidebar:
         </div>
     """, unsafe_allow_html=True)
 
+    # --- HOW IT WORKS ---
     st.markdown("""
         <div class="sidebar-card">
             <h4>✅ How It Works</h4>
             <p>① Fill your details<br>
-               ② Select your course<br>
-               ③ Click Submit<br>
-               ④ We contact you!</p>
+            ② Select your course<br>
+            ③ Click Submit<br>
+            ④ We contact you!</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -497,7 +499,7 @@ if st.session_state.submitted:
             </div>
             <div>
                 <span class="success-confetti" style="animation-delay:0s">🎊</span>
-                <span class="success-confetti" style="animation-delay:0.2s">⭐</span>
+                <span class="success-confetti" style="animation-delay:0.2s">🌝</span>
                 <span class="success-confetti" style="animation-delay:0.4s">🎓</span>
                 <span class="success-confetti" style="animation-delay:0.6s">⭐</span>
                 <span class="success-confetti" style="animation-delay:0.8s">🎊</span>
