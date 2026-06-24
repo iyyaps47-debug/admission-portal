@@ -407,23 +407,24 @@ with st.sidebar:
         </div>
     """, unsafe_allow_html=True)
 
+    # --- CONTACT ---
     st.markdown("""
         <div class="sidebar-card">
             <h4>📞 Contact</h4>
             <p>📧 admissions@skilzlearn.com<br>
-               📱 +91-XXXXXXXXXX<br>
-               🌐 www.skilzlearn.com</p>
+            📱 +91-XXXXXXXXXX<br>
+            🌐 www.skilzlearn.com</p>
         </div>
     """, unsafe_allow_html=True)
 
+    # --- OFFICE HOURS ---
     st.markdown("""
         <div class="sidebar-card">
-            <h4>🕐 Office Hours</h4>
-            <p>Mon–Sat: 9 AM – 7 PM<br>
-               Sunday: Closed</p>
+            <h4>🕒 Office Hours</h4>
+            <p>Mon-Sat: 9 AM - 7 PM<br>
+            Sunday: Closed</p>
         </div>
     """, unsafe_allow_html=True)
-
 # ── MAIN CONTENT ──────────────────────────────────────────────────────────────
 
 # Top Header with Logo
